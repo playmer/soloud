@@ -186,7 +186,7 @@ namespace SoLoud
     {
         if (FAILED(CoInitializeEx(0, COINIT_MULTITHREADED)))
         {
-            return UNKNOWN_ERROR;
+            //return UNKNOWN_ERROR;
         }
         XAudio2Data *data = new XAudio2Data;
         ZeroMemory(data, sizeof(XAudio2Data));
